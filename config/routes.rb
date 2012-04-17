@@ -1,4 +1,6 @@
 EmacsBot::Application.routes.draw do
+  resources :commands
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
