@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 require 'json'
-require 'twitter'
+require './twitter'
 
 # Twitter OAuth Settings
 open('config.json') {|f|
