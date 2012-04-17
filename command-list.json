@@ -1,0 +1,622 @@
+[
+  {
+    "cmd": "C-x C-f",
+    "desc": "\"find\" file i.e. open/create a file in buffer"
+  },
+  {
+    "cmd": "C-x C-s",
+    "desc": "save the file"
+  },
+  {
+    "cmd": "C-x C-w",
+    "desc": "write the text to an alternate name"
+  },
+  {
+    "cmd": "C-x C-v",
+    "desc": "find alternate file"
+  },
+  {
+    "cmd": "C-x i",
+    "desc": "insert file at cursor position"
+  },
+  {
+    "cmd": "C-x b",
+    "desc": "create/switch buffers"
+  },
+  {
+    "cmd": "C-x C-b",
+    "desc": "show buffer list"
+  },
+  {
+    "cmd": "C-x k",
+    "desc": "kill buffer"
+  },
+  {
+    "cmd": "C-z",
+    "desc": "suspend emacs "
+  },
+  {
+    "cmd": "C-X C-c",
+    "desc": "close down emacs"
+  },
+  {
+    "cmd": "C-f",
+    "desc": "forward char"
+  },
+  {
+    "cmd": "C-b",
+    "desc": "backward char"
+  },
+  {
+    "cmd": "C-p",
+    "desc": "previous line"
+  },
+  {
+    "cmd": "C-n",
+    "desc": "next line"
+  },
+  {
+    "cmd": "M-f",
+    "desc": "forward one word"
+  },
+  {
+    "cmd": "M-b",
+    "desc": "backward one word"
+  },
+  {
+    "cmd": "C-a",
+    "desc": "beginning of line"
+  },
+  {
+    "cmd": "C-e",
+    "desc": "end of line"
+  },
+  {
+    "cmd": "C-v",
+    "desc": "one page up"
+  },
+  {
+    "cmd": "M-v",
+    "desc": "scroll down one page"
+  },
+  {
+    "cmd": "M-<",
+    "desc": "beginning of text"
+  },
+  {
+    "cmd": "M->",
+    "desc": "end of text"
+  },
+  {
+    "cmd": "M-n",
+    "desc": "repeat the following command n times"
+  },
+  {
+    "cmd": "C-u",
+    "desc": "repeat the following command 4 times"
+  },
+  {
+    "cmd": "C-u n",
+    "desc": "repeat n times"
+  },
+  {
+    "cmd": "C-d",
+    "desc": "delete a char"
+  },
+  {
+    "cmd": "M-d",
+    "desc": "delete word"
+  },
+  {
+    "cmd": "M-Del",
+    "desc": "delete word backwards"
+  },
+  {
+    "cmd": "C-k",
+    "desc": "kill line"
+  },
+  {
+    "cmd": "C-Space",
+    "desc": "Set beginning mark (for region marking for example)"
+  },
+  {
+    "cmd": "C-W",
+    "desc": "\"kill\" (delete) the marked region region"
+  },
+  {
+    "cmd": "M-W",
+    "desc": "copy the marked region"
+  },
+  {
+    "cmd": "C-y",
+    "desc": "\"yank\" (paste) the copied/killed region/line"
+  },
+  {
+    "cmd": "M-y",
+    "desc": "yank earlier text (cycle through kill buffer)"
+  },
+  {
+    "cmd": "C-x C-x",
+    "desc": "exchange cursor and mark"
+  },
+  {
+    "cmd": "C-t",
+    "desc": "transpose two chars"
+  },
+  {
+    "cmd": "M-t",
+    "desc": "transpose two words"
+  },
+  {
+    "cmd": "C-x C-t",
+    "desc": "transpose lines"
+  },
+  {
+    "cmd": "M-u",
+    "desc": "make letters uppercase in word from cursor position to end"
+  },
+  {
+    "cmd": "M-c",
+    "desc": "simply make first letter in word uppercase"
+  },
+  {
+    "cmd": "M-l",
+    "desc": "opposite to M-u"
+  },
+  {
+    "cmd": "C-g",
+    "desc": "quit the running/entered command"
+  },
+  {
+    "cmd": "C-x u",
+    "desc": "undo previous action"
+  },
+  {
+    "cmd": "M-x revert-buffer RETURN",
+    "desc": "(insert like this) undo all changes since last save"
+  },
+  {
+    "cmd": "M-x recover-file RETURN",
+    "desc": "Recover text from an autosave-file"
+  },
+  {
+    "cmd": "M-x recover-session RETURN",
+    "desc": "if you edited several files"
+  },
+  {
+    "cmd": "C-h c",
+    "desc": "which command does this keystroke invoke"
+  },
+  {
+    "cmd": "C-h k",
+    "desc": "which command does this keystroke invoke and what does it do?"
+  },
+  {
+    "cmd": "C-h l",
+    "desc": "what were my last 100 typed keys"
+  },
+  {
+    "cmd": "C-h w",
+    "desc": "what key-combo does this command have?"
+  },
+  {
+    "cmd": "C-h f",
+    "desc": "what does this function do"
+  },
+  {
+    "cmd": "C-h v",
+    "desc": "what's this variable and what is it's value"
+  },
+  {
+    "cmd": "C-h b",
+    "desc": "show all keycommands for this buffer"
+  },
+  {
+    "cmd": "C-h t",
+    "desc": "start the emacs tutorial"
+  },
+  {
+    "cmd": "C-h i",
+    "desc": "start the info reader"
+  },
+  {
+    "cmd": "C-h C-k",
+    "desc": "start up info reader and go to a certain key-combo point"
+  },
+  {
+    "cmd": "C-h F",
+    "desc": "show the emacs FAQ"
+  },
+  {
+    "cmd": "C-h p",
+    "desc": "show infos about the Elisp package on this machine"
+  },
+  {
+    "cmd": "C-s",
+    "desc": "Search forward"
+  },
+  {
+    "cmd": "C-r",
+    "desc": "search backward"
+  },
+  {
+    "cmd": "C-g",
+    "desc": "return to where search started (if you are still in search mode)"
+  },
+  {
+    "cmd": "M-%",
+    "desc": "query replace"
+  },
+  {
+    "cmd": "M C-s RETURN",
+    "desc": "search for regular expression forward"
+  },
+  {
+    "cmd": "M C-r RETURN",
+    "desc": "search for regular expression backward"
+  },
+  {
+    "cmd": "M C-s",
+    "desc": "incremental search"
+  },
+  {
+    "cmd": "C-s",
+    "desc": "repeat incremental search"
+  },
+  {
+    "cmd": "M C-r",
+    "desc": "incremental search backwards"
+  },
+  {
+    "cmd": "C-r",
+    "desc": "repeat backwards"
+  },
+  {
+    "cmd": "M-x query-replace-regexp",
+    "desc": "search and replace"
+  },
+  {
+    "cmd": "C-x 2",
+    "desc": "split window vertically"
+  },
+  {
+    "cmd": "C-x o",
+    "desc": "change to other window"
+  },
+  {
+    "cmd": "C-x 0",
+    "desc": "delete window"
+  },
+  {
+    "cmd": "C-x 1",
+    "desc": "close all windows except the one the cursors in"
+  },
+  {
+    "cmd": "C-x ^",
+    "desc": "enlarge window"
+  },
+  {
+    "cmd": "M-x shrink-window",
+    "desc": "command says it ;-)"
+  },
+  {
+    "cmd": "M C-v",
+    "desc": "scroll other window"
+  },
+  {
+    "cmd": "C-x 4 f",
+    "desc": "find file in other window"
+  },
+  {
+    "cmd": "C-x 4 o",
+    "desc": "change to other window"
+  },
+  {
+    "cmd": "C-x 4 0",
+    "desc": "kill buffer and window"
+  },
+  {
+    "cmd": "C-x 5 2",
+    "desc": "make new frame"
+  },
+  {
+    "cmd": "C-x 5 f",
+    "desc": "find file in other frame"
+  },
+  {
+    "cmd": "C-x 5 o",
+    "desc": "change to other frame"
+  },
+  {
+    "cmd": "C-x 5 0",
+    "desc": "close this frame"
+  },
+  {
+    "cmd": "C-x r m",
+    "desc": "set a bookmark at current cursor pos"
+  },
+  {
+    "cmd": "C-x r b",
+    "desc": "jump to bookmark"
+  },
+  {
+    "cmd": "M-x bookmark-rename",
+    "desc": "says it"
+  },
+  {
+    "cmd": "M-x bookmark-delete",
+    "desc": "\t\""
+  },
+  {
+    "cmd": "M-x bookmark-save</code> \t\"",
+    "desc": null
+  },
+  {
+    "cmd": "C-x r l",
+    "desc": "list bookmarks"
+  },
+  {
+    "cmd": "M-x bookmark-write",
+    "desc": "write all bookmarks in given file"
+  },
+  {
+    "cmd": "M-x bookmark-load",
+    "desc": "load bookmark from given file"
+  },
+  {
+    "cmd": "M-x shell",
+    "desc": "starts shell modus"
+  },
+  {
+    "cmd": "C-c C-c",
+    "desc": "same as C-c under unix (stop running job)"
+  },
+  {
+    "cmd": "C-d",
+    "desc": "delete char forward"
+  },
+  {
+    "cmd": "C-c C-d",
+    "desc": "Send EOF"
+  },
+  {
+    "cmd": "C-c C-z",
+    "desc": "suspend job (C-z under unix)"
+  },
+  {
+    "cmd": "M-p",
+    "desc": "show previous commands"
+  },
+  {
+    "cmd": "C-x d",
+    "desc": "start up dired"
+  },
+  {
+    "cmd": "C",
+    "desc": "(large C) copy "
+  },
+  {
+    "cmd": "C-o",
+    "desc": "open file in other window but don't change there"
+  },
+  {
+    "cmd": "M-Del",
+    "desc": "remove all marks (whatever kind)"
+  },
+  {
+    "cmd": "M-=",
+    "desc": "compare this file with it's backup file"
+  },
+  {
+    "cmd": "M-}",
+    "desc": "change to the next file marked with * od D"
+  },
+  {
+    "cmd": "M-{",
+    "desc": "change to the previous file marked with * od D"
+  },
+  {
+    "cmd": "M-x speedbar",
+    "desc": "starts up a separate window with a directory view"
+  },
+  {
+    "cmd": "M-x telnet",
+    "desc": "starts up telnet-modus"
+  },
+  {
+    "cmd": "C-d",
+    "desc": "either delete char or send EOF"
+  },
+  {
+    "cmd": "C-c C-c",
+    "desc": "stop running job (similar to C-c under unix)"
+  },
+  {
+    "cmd": "C-c C-d",
+    "desc": "send EOF"
+  },
+  {
+    "cmd": "C-c C-o",
+    "desc": "clear output of last command"
+  },
+  {
+    "cmd": "C-c C-z",
+    "desc": "suspend execution of command"
+  },
+  {
+    "cmd": "C-c C-u",
+    "desc": "kill line backwards"
+  },
+  {
+    "cmd": "M-p",
+    "desc": "recall previous command"
+  },
+  {
+    "cmd": "M-s",
+    "desc": "center line"
+  },
+  {
+    "cmd": "M-S",
+    "desc": "center paragraph"
+  },
+  {
+    "cmd": "M-x center-region",
+    "desc": "name says "
+  },
+  {
+    "cmd": "C-x (",
+    "desc": "start macro definition"
+  },
+  {
+    "cmd": "C-x )",
+    "desc": "end of macro definition"
+  },
+  {
+    "cmd": "C-x e",
+    "desc": "execute last definied macro"
+  },
+  {
+    "cmd": "M-n C-x e",
+    "desc": "execute last defined macro n times"
+  },
+  {
+    "cmd": "M-x name-last-kbd-macro",
+    "desc": "give name to macro (for saving)"
+  },
+  {
+    "cmd": "M-x insert-keyboard-macro",
+    "desc": "save named macro into file"
+  },
+  {
+    "cmd": "M-x load-file",
+    "desc": "load macro"
+  },
+  {
+    "cmd": "M-x macroname",
+    "desc": "execute macroname"
+  },
+  {
+    "cmd": "M C-\\",
+    "desc": "indent region between cursor and mark"
+  },
+  {
+    "cmd": "M-m",
+    "desc": "move to first (non-space) char in this line"
+  },
+  {
+    "cmd": "M-^",
+    "desc": "attach this line to previous"
+  },
+  {
+    "cmd": "M-;",
+    "desc": "formatize and indent comment"
+  },
+  {
+    "cmd": "M-a",
+    "desc": "beginning of statement"
+  },
+  {
+    "cmd": "M-e",
+    "desc": "end of statement"
+  },
+  {
+    "cmd": "M C-a",
+    "desc": "beginning of function"
+  },
+  {
+    "cmd": "M C-e",
+    "desc": "end of function"
+  },
+  {
+    "cmd": "C-c RETURN",
+    "desc": "Set cursor to beginning of function and mark at the end"
+  },
+  {
+    "cmd": "C-c C-q",
+    "desc": "indent the whole function according to indention style"
+  },
+  {
+    "cmd": "C-c C-a",
+    "desc": "toggle modus in which after electric signs (like {}:';./*) emacs does the indention"
+  },
+  {
+    "cmd": "C-c C-d",
+    "desc": "toggle auto hungry mode in which emacs deletes groups of spaces with one del-press"
+  },
+  {
+    "cmd": "C-c C-u",
+    "desc": "go to beginning of this preprocessor statement"
+  },
+  {
+    "cmd": "C-c C-c",
+    "desc": "comment out marked area"
+  },
+  {
+    "cmd": "M-x outline-minor-mode",
+    "desc": "collapses function definitions "
+  },
+  {
+    "cmd": "M-x show-subtree",
+    "desc": "If you are in one of the collapsed functi"
+  },
+  {
+    "cmd": "M-.",
+    "desc": "(Thats Meta dot) If you are in a function call, this "
+  },
+  {
+    "cmd": "M-x tags-search ENTER",
+    "desc": "Searches through all you etaged "
+  },
+  {
+    "cmd": "M-,",
+    "desc": "(Meta comma) jumps to the next occurence for tags-search "
+  },
+  {
+    "cmd": "M-x tags-query-replace",
+    "desc": "yum. This lets you replace some tex"
+  },
+  {
+    "cmd": "M-x gdb",
+    "desc": "starts up gdm in an extra window"
+  },
+  {
+    "cmd": "C-x v d",
+    "desc": "show all registered files in this dir"
+  },
+  {
+    "cmd": "C-x v =",
+    "desc": "show diff between versions"
+  },
+  {
+    "cmd": "C-x v u",
+    "desc": "remove all changes since last checkin"
+  },
+  {
+    "cmd": "C-x v ~",
+    "desc": "show certain version in different window"
+  },
+  {
+    "cmd": "C-x v l",
+    "desc": "print log"
+  },
+  {
+    "cmd": "C-x v i",
+    "desc": "mark file for version control add"
+  },
+  {
+    "cmd": "C-x v h",
+    "desc": "insert version control header into file"
+  },
+  {
+    "cmd": "C-x v r",
+    "desc": "check out named snapshot"
+  },
+  {
+    "cmd": "C-x v s",
+    "desc": "create named snapshot"
+  },
+  {
+    "cmd": "C-x v a",
+    "desc": "create changelog file in gnu-style"
+  }
+]
